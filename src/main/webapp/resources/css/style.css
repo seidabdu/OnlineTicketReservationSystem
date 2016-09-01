@@ -1,0 +1,73 @@
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d17581;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+/* New additions */
+div.box {
+	width: 92px;
+	height: 92px;
+	float: left;
+	margin: 1px;
+	padding: 3px;
+}
+
+.jumbotron{
+	color:white;
+	height: 116px;
+}
+
+.jumbotron h2 {
+	margin-top: 0px;
+}
+
+.show100 {
+    max-height: 240px;
+    overflow: hidden;
+}
+
+strong.special {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+    border-bottom: 2px solid gold;
+}
+
+span.app {
+	font-size:18pt;
+	color:gold;
+}
+
+input.sorting {
+  border: none;
+  background: none;
+  color: #00f;
+  text-decoration: underline;
+  cursor: pointer;
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
